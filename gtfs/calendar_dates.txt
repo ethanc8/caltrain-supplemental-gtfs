@@ -1,2 +1,2 @@
 service_id,date,exception_type
-NYE,20260101,New Year's Eve late night service,1
+NYE,20260101,1
