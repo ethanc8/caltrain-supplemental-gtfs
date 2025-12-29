@@ -4,7 +4,7 @@
 
 ## How the feed is made
 
-* The original GTFS feed was downloaded from Trillium and slightly adjusted
+* The original GTFS feed was downloaded from `https://api.511.org/transit/datafeeds?api_key=[API KEY]&operator_id=CT` and slightly adjusted
 * The timetables are manually slightly modified to get them into a form like this, which is saved in the spreadsheet `input-data/NYE timetables.xlsx`:
 ![alt text](images/timetable-spreadsheet.png)
 * `scripts/run.sh`, which uses `scripts/timetable-to-gtfs.py`, will generate the GTFS timetables
